@@ -1,0 +1,56 @@
+# Name: validate_file
+# Purpose: Validate the file name input
+# Parameters: N/A
+# Return: user_file
+1. Prompt user for which file to use, store as user_file
+2. while user_file is not found
+    a. print error message
+    b. reprompt user
+3. return user_file
+
+
+# Name: store_conversion
+# Purpose: Store conversion information into a dictionary (file name is morsecode.txt)
+# Parameters: morsecode.txt
+# Return: morse_dict
+1. Create an empty dictionary to store data from file
+2. Open morsecode.txt for reading
+3. for each line in the file
+    a. split the line into a list
+    b. Make the dots and dashes the value
+    c. make the alphabet letter the key
+    d. update the dictionary with the key and value
+4. Close the file
+5. return the dictionary as morse_dict
+
+
+# Name: read_morse_text
+# Purpose: Read in the morse code text file
+# Parameters: user_file
+# Return: user_file_list
+1. Open user_file
+2. for morse code in user file
+    a. append to user_file_list
+3. close user_file
+4. return user_file_list
+
+
+# Name: morse_to_english
+# Purpose: Converting the morse code file to an english file
+# Parameters: user_file, morse_dict
+# Return: english_file
+1. split and strip words from user_file
+2. Append characters with dictionary to a sentence
+3. return english_file
+
+
+# Name: main
+# Purpose: call previous functions
+# Parameters:
+# Return:
+1. Print purpose of the program
+2. call validate_file as user_file
+3. call store_conversion(morsecode.txt) as morse_dict
+4. call read_morse_text(user_file)
+5. call morse_to_english(user_file, morse_dict,output_file)
+6. call main
