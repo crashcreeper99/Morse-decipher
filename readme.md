@@ -4,7 +4,7 @@ Pourpose:
 The objective of this program is to convert files containing Morse code into English text. 
 The converted text will be saved in a new file, and the program will include valid error checking to ensure accurate processing.
 
-Short individual reflection
+Short individual reflection:
 In the laboratory, I embarked on the development of a sophisticated program designed to convert Morse code from a user-selected file into readable English text. 
 Working alongside my partner was an incredibly rewarding experience; we engaged in brainstorming sessions that allowed us to merge our unique areas of expertise. 
 This collaborative effort resulted in a comprehensive plan, where we meticulously outlined each step required to produce a robust and functional program that effectively fulfills its intended purpose.
